@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: blue orange;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.swal2-title {
+    font-weight: 300 !important
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #536bf1ec;
+    border-radius: 10px;
+}
